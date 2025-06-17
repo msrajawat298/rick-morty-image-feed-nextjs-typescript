@@ -1,3 +1,5 @@
+import { Episode, ApiResponse, Character } from "../types/api";
+
 const BASE_URL = 'https://rickandmortyapi.com/api';
 
 export async function fetchEpisodes(): Promise<Episode[]> {

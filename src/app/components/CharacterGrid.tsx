@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import { Character } from '../types/api';
 
@@ -31,7 +32,7 @@ const CharacterGrid: React.FC<CharacterGridProps> = ({ characters, loading, sele
 
   return (
     <div className="character-grid">
-      {selectedEpisode && <h2>{characters.length} Characters in episode "{selectedEpisode}"</h2>}
+      {selectedEpisode && <h2>{characters.length} Characters in episode &quot;{selectedEpisode}&rdquo;</h2>}
       <div className="grid">
       {characters.map((character) => (
         <div key={character.id} className="character-card">
