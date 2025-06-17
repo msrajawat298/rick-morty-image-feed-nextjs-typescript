@@ -74,9 +74,7 @@ The app uses the Rick and Morty API:
 │   └── CharacterGrid.tsx    # Main character display grid
 ├── lib/
 │   └── api.ts              # API integration functions
-├── pages/
-│   ├── _app.tsx            # App wrapper
-│   └── index.tsx           # Main page component
+│── page.tsx                # Main page component
 ├── styles/
 │   └── globals.css         # Global styles
 ├── types/
