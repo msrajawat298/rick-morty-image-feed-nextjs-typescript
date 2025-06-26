@@ -87,6 +87,9 @@ const Home: React.FC = () => {
 
   return <>
   <h1 style={{ textAlign: 'center', margin: '20px 0' }}>Rick and Morty Episodes</h1>
+  <div style={{ textAlign: 'center', marginBottom: 24 }}>
+    <a href="/about" style={{ color: '#0070f3', textDecoration: 'underline', fontWeight: 500 }}>About</a>
+  </div>
   <div className="app-container">
     <EpisodeList
       episodes={episodes}
